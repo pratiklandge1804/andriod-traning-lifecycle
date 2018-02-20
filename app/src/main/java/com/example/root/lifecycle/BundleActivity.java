@@ -23,7 +23,7 @@ public class BundleActivity extends AppCompatActivity {
         tv_name.setText(name);
         tv_surname.setText(surname);
 
-        Toast.makeText(BundleActivity.this,"Hiweeee",Toast.LENGTH_LONG).show();
+        Toast.makeText(BundleActivity.this,"Hiweeee",Toast.LENGTH_SHORT).show();
 
 
     }
