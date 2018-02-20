@@ -3,6 +3,7 @@ package com.example.root.lifecycle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class BundleActivity extends AppCompatActivity {
 
@@ -21,6 +22,8 @@ public class BundleActivity extends AppCompatActivity {
 
         tv_name.setText(name);
         tv_surname.setText(surname);
+
+        Toast.makeText(BundleActivity.this,"Hiweeee",Toast.LENGTH_LONG).show();
 
 
     }
